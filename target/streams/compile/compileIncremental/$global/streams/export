@@ -1,0 +1,1 @@
+scalac -classpath /home/ryan/projects/dev/scala/fpinscala/target/scala-2.12/classes -bootclasspath /home/ryan/.sbt/boot/scala-2.12.6/lib/scala-library.jar /home/ryan/projects/dev/scala/fpinscala/src/main/scala/example/Factorial.scala /home/ryan/projects/dev/scala/fpinscala/src/main/scala/example/Coffee.scala

@@ -1,0 +1,25 @@
+[0m[[0m[31merror[0m] [0m[0m/home/ryan/projects/dev/scala/fpinscala/src/main/scala/example/Coffee.scala:2:35: not found: type Coffee[0m
+[0m[[0m[31merror[0m] [0m[0m  def buyCoffee(cc: CreditCard): (Coffee, Charge) = {[0m
+[0m[[0m[31merror[0m] [0m[0m                                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/ryan/projects/dev/scala/fpinscala/src/main/scala/example/Coffee.scala:2:21: not found: type CreditCard[0m
+[0m[[0m[31merror[0m] [0m[0m  def buyCoffee(cc: CreditCard): (Coffee, Charge) = {[0m
+[0m[[0m[31merror[0m] [0m[0m                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/ryan/projects/dev/scala/fpinscala/src/main/scala/example/Coffee.scala:3:19: not found: type Coffee[0m
+[0m[[0m[31merror[0m] [0m[0m    val cup = new Coffee()[0m
+[0m[[0m[31merror[0m] [0m[0m                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/ryan/projects/dev/scala/fpinscala/src/main/scala/example/Coffee.scala:14:23: not found: type CreditCard[0m
+[0m[[0m[31merror[0m] [0m[0mcase class Charge(cc: CreditCard, amount: Double) {[0m
+[0m[[0m[31merror[0m] [0m[0m                      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/ryan/projects/dev/scala/fpinscala/src/main/scala/example/Coffee.scala:7:49: not found: type Coffee[0m
+[0m[[0m[31merror[0m] [0m[0m  def buyCoffees(cc: CreditCard, n: Int): (List[Coffee], Charge) = {[0m
+[0m[[0m[31merror[0m] [0m[0m                                                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/ryan/projects/dev/scala/fpinscala/src/main/scala/example/Coffee.scala:7:22: not found: type CreditCard[0m
+[0m[[0m[31merror[0m] [0m[0m  def buyCoffees(cc: CreditCard, n: Int): (List[Coffee], Charge) = {[0m
+[0m[[0m[31merror[0m] [0m[0m                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/ryan/projects/dev/scala/fpinscala/src/main/scala/example/Coffee.scala:8:26: not found: type Coffee[0m
+[0m[[0m[31merror[0m] [0m[0m    val purchases: List[(Coffee, Charge)] = List.fill(n)(buyCoffee(cc))[0m
+[0m[[0m[31merror[0m] [0m[0m                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/ryan/projects/dev/scala/fpinscala/src/main/scala/example/Coffee.scala:10:23: value reduce is not a member of Any[0m
+[0m[[0m[31merror[0m] [0m[0m    (coffees, charges.reduce((c1, c2) => c1.combine(c2)))[0m
+[0m[[0m[31merror[0m] [0m[0m                      ^[0m
+[0m[[0m[31merror[0m] [0m[0m8 errors found[0m
