@@ -1,0 +1,2 @@
+* Functional Programming in Scala
+- So far: Chapter 1
